@@ -15,3 +15,11 @@
 //   await db.collection("note").insertOne(data);
 //   return new Response("success", { status: 201 });
 // }
+
+import React from 'react'
+
+export default function route() {
+  return (
+    <div>route</div>
+  )
+}
